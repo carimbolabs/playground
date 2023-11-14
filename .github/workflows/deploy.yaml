@@ -9,6 +9,9 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
       - name: Setup Firebase Hosting
         uses: firebaseextended/action-hosting-deploy@v0
         with:
