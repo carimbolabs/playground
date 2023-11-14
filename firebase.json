@@ -14,6 +14,17 @@
           "pinTag": true
         }
       }
+    ],
+    "headers": [
+      {
+        "source": "/play/**",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-cache, no-store, must-revalidate"
+          }
+        ]
+      }
     ]
   }
 }
