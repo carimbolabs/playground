@@ -7,7 +7,7 @@
     },
     "rewrites": [
       {
-        "source": "/play",
+        "source": "/play/**",
         "run": {
           "serviceId": "play",
           "region": "us-central1",
