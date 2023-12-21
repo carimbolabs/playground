@@ -1,0 +1,8 @@
+url: https://play.carimbo.cloud
+apps:
+  - name: Henrique
+    runtime: 1.0.0
+    organization: flippingpixels
+    repository: henrique
+    release: 0.0.26
+    resolution: 480p
