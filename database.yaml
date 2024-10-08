@@ -2,14 +2,14 @@ url: https://play.carimbo.cloud
 apps:
   - name: Henrique
     runtime: 1.0.2
-    organization: colorfulworks
+    organization: carimbolabs
     repository: henrique
     release: 0.0.27
     resolution: 480p
 
   - name: MegaRick
-    runtime: 1.0.4
-    organization: colorfulworks
+    runtime: 1.0.10
+    organization: carimbolabs
     repository: megarick
-    release: 1.0.1
-    resolution: 480p
+    release: 1.0.7
+    resolution: 720p
